@@ -1,0 +1,97 @@
+:root {
+    --primary-blue: #4361ee;
+    --secondary-blue: #4cc9f0;
+    --soft-yellow: #fff9c4;
+    --warning-red: #f72585;
+    --success-green: #4caf50;
+    --accent-purple: #7209b7;
+    --text-dark: #2c3e50;
+    --font-main: 'Comic Sans MS', 'Chalkboard SE', cursive, sans-serif;
+}
+
+body {
+    font-family: var(--font-main);
+    line-height: 1.6;
+    color: var(--text-dark);
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--soft-yellow); /* Mantém o fundo do exemplo original */
+}
+
+.main-header {
+    background: linear-gradient(135deg, var(--primary-blue), var(--accent-purple));
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    border: 5px solid #3f37c9;
+    box-shadow: 0 8px 0 #3a0ca3;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    border: 4px solid var(--primary-blue);
+    box-shadow: 8px 8px 0 #d0d7f1;
+}
+
+.card-activity {
+    border-color: var(--secondary-blue);
+    box-shadow: 8px 8px 0 #bde0fe;
+}
+
+.card-warning {
+    border-color: var(--warning-red);
+    box-shadow: 8px 8px 0 #ffcdd2;
+}
+
+.card-evaluation {
+    border-color: var(--success-green);
+    box-shadow: 8px 8px 0 #c8e6c9;
+}
+
+h1 {
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-top: 0;
+}
+
+p, li, span {
+    font-size: 1.15rem;
+    margin-bottom: 10px;
+}
+
+.task-list {
+    list-style-type: "⭐ ";
+    padding-left: 25px;
+}
+
+.evaluation-grid {
+    display: grid;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.evaluation-item {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px dashed #ccc;
+    font-size: 1rem;
+}
+
+.main-footer {
+    text-align: center;
+    padding: 30px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--primary-blue);
+}
